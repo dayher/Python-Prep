@@ -6,7 +6,8 @@
 # 1) Crear una variable que contenga un elemento del conjunto de números enteros y luego imprimir por pantalla
 
 # In[7]:
-
+x = 7
+print(x)
 
 
 
@@ -14,7 +15,7 @@
 
 # In[3]:
 
-
+print(type(8.5))
 
 
 
@@ -22,7 +23,7 @@
 
 # In[8]:
 
-
+print(type(x))
 
 
 
@@ -30,14 +31,14 @@
 
 # In[2]:
 
-
+nombre='Dayher'
 
 
 # 5) Crear una variable que contenga un número complejo
 
 # In[3]:
 
-
+y= 2+3j
 
 
 
@@ -45,8 +46,7 @@
 
 # In[4]:
 
-
-
+print(type(y))
 
 
 # 7) Crear una variable que contenga el valor del número Pi redondeado a 4 decimales
@@ -61,7 +61,8 @@ pi = 3.1416
 
 # In[3]:
 
-
+texto='True'
+booleana=True
 
 
 
@@ -69,7 +70,8 @@ pi = 3.1416
 
 # In[5]:
 
-
+print(type(texto))
+print(type(booleana))
 
 
 
