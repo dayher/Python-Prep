@@ -79,7 +79,7 @@ print(type(booleana))
 
 # In[1]:
 
-
+suma_entero_decimal= 8 + 3.14
 
 
 
@@ -88,15 +88,15 @@ print(type(booleana))
 # In[2]:
 
 
-
+z= 6+5j
+print(z+y)
 
 
 # 12) Realizar una operación de suma de un número real y otro complejo
 
 # In[4]:
 
-
-
+print(x+z)
 
 
 # 13) Realizar una operación de multiplicación
@@ -104,21 +104,22 @@ print(type(booleana))
 # In[5]:
 
 
-
+print(x*y)
 
 
 # 14) Mostrar el resultado de elevar 2 a la octava potencia
 
 # In[6]:
 
-
+print(2**8)
 
 
 # 15) Obtener el cociente de la división de 27 entre 4 en una variable y luego mostrarla
 
 # In[8]:
 
-
+a=27/4
+print(a)
 
 
 
@@ -126,7 +127,8 @@ print(type(booleana))
 
 # In[9]:
 
-
+a=27//4
+print(a)
 
 
 
@@ -134,7 +136,8 @@ print(type(booleana))
 
 # In[1]:
 
-
+b=27%4
+print(b)
 
 
 
@@ -142,7 +145,7 @@ print(type(booleana))
 
 # In[2]:
 
-
+print(a*4+b)
 
 
 
@@ -150,7 +153,7 @@ print(type(booleana))
 
 # In[3]:
 
-
+print(texto+nombre)
 
 
 
@@ -158,7 +161,7 @@ print(type(booleana))
 
 # In[4]:
 
-
+2=='2'
 
 
 
@@ -167,30 +170,31 @@ print(type(booleana))
 # In[11]:
 
 
-
+2==int('2')
 
 
 # 22) ¿Por qué arroja error el siguiente cambio de tipo de datos? a = float('3,8')
 
 # In[12]:
 
+a = float('3.8')
 
-
-
+print(a)
 
 # 23) Crear una variable con el valor 3, y utilizar el operador '-=' para modificar su contenido y que de como resultado 2.
 
 # In[15]:
 
-
-
+b=3
+b-=1
+print(b)
 
 
 # 24) Realizar la operacion 1 << 2 ¿Por qué da ese resultado? ¿Qué es el sistema de numeración binario?
 
 # In[29]:
 
-
+print(1 << 2)
 
 
 
@@ -199,13 +203,15 @@ print(type(booleana))
 # In[23]:
 
 
-
+print(2 + '2')
 
 
 
 # 26) Realizar una operación válida entre valores de tipo entero y string
 
 # In[30]:
+print(2+int('2'))
 
 
 
+# %%
